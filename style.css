@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+   background: radial-gradient(ellipse at top, #272F40, transparent),
+               radial-gradient(ellipse at bottom,#86AE94, transparent);
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               
+               align-items: center;
+}
+
+
+p{
+   
+    font-weight: bold;
+    align-items: center;
+    
+}
