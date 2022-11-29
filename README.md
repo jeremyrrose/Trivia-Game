@@ -10,5 +10,6 @@ MVP CRITERIA-
 
 POST-MVP PLANS
 - Add homescreen
+- Add sound effects
 - Add categories
 - Add timer
