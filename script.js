@@ -1,6 +1,8 @@
+var score=0;
+
 function RESULT() {
 
-    var score=0;
+    
     if(document.getElementById('mercury1').checked) 
     {
         score++;
@@ -9,17 +11,21 @@ function RESULT() {
     {
         score++;
     }
-    if(document.getElementById('aphrodite3').checked) 
+   if(document.getElementById('aphrodite3').checked) 
     {
         score++;
     }
-    if(document.getElementById('number4').checked) 
+   if(document.getElementById('number4').checked) 
     {
         score++;
     }
-    if(document.getElementById('strawberries5').checked) 
+   if(document.getElementById('strawberries5').checked) 
     {
         score++;
     }
-    document.write("YOUR SCORE:"+score);
+    
+}
+
+function score(){
+document.getElementById("submit").innerHTML = RESULT();
 }
