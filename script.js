@@ -24,8 +24,8 @@ function result() {
         score++;
     }
     console.log(score)   
-
-    
+var scoreDiv=document.getElementById("score")
+    scoreDiv.innerHTML=score
 }
 
  document.getElementById("submit").addEventListener("click",result);
