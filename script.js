@@ -1,6 +1,6 @@
 var score=0;
 
-function RESULT() {
+function result() {
 
     
     if(document.getElementById('mercury1').checked) 
@@ -23,9 +23,15 @@ function RESULT() {
     {
         score++;
     }
+    console.log(score)   
+
     
 }
 
-function score(){
-document.getElementById("submit").innerHTML = RESULT();
-}
+ document.getElementById("submit").addEventListener("click",result);
+ 
+ 
+
+// add eventlistener connected to submit button 
+// console.log
+
