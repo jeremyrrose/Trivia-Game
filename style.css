@@ -20,6 +20,7 @@ color:  rgb(245, 238, 240);
 border-style: double;
 border-width: 5px;
 border-radius: 8px;
+
 }
 h2{
     text-align: center;
@@ -28,9 +29,8 @@ color:  rgb(245, 238, 240);
 }
 p{
     font-weight: bold;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 8px;
+    text-decoration: underline;
+    
 }
 
 button{
@@ -39,9 +39,10 @@ color: azure;
 border: none;
 font-size: 16px;
 border-radius: 8px;
+
 }
  button:hover{
-    background-color: #86AE94;
+    background-color: #d67910;
  }
 
  div{
